@@ -46,7 +46,7 @@ function findFourth(numbers) {
 
 // Q: Could you come up with a solution that has a better time complexity? If so, write out that solution and note the time complexity. If not, why not?
 
-// ANSWER: No, to have a solution that has a better complexity would require a constant time complexity; which in the end would not solve the problem. 
+// ANSWER: No, constant time complexity is the best. 
 
 
 // 3) -------------------------------------------------------
