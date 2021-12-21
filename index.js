@@ -38,7 +38,7 @@ function findFourth(numbers) {
   }
 
 // Q: What is the time complexity of of this solution?
-// ANSWER: O(log n)
+// ANSWER: O(1)
 
 // Q: Given an array of numbers, what is the space complexity of this function?
 // ANSWER: O(n)
@@ -87,7 +87,7 @@ function printC(num, arr) {
 // ANSWER: O(n^2)
 
 // Q: What is the space complexity of this function?
-// ANSWER: O(n)
+// ANSWER: O(n^2)
 
 
 // 6) -------------------------------------------------------
@@ -102,7 +102,7 @@ function nested(numbers) {
 // ANSWER: O(n^2)
 
 // Q: What is the space complexity of this function?
-// ANSWER: O(n)
+// ANSWER: O(n^2)
 
 
 
@@ -113,10 +113,10 @@ let newNumbersA = numbers.filter((num) => {
   return num < 5
 })
 // Q: What is the time complexity of the filter higher-order function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 // Q: What is the space complexity of the filter higher-order function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // 8) -------------------------------------------------------
@@ -143,7 +143,7 @@ function removeNum() {
     numbers.splice(3,1)
 }
 // Q: What is the time complexity of the function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // 10) -------------------------------------------------------
@@ -151,7 +151,7 @@ function insertNum() {
     numbers.splice(3, 0, 19)
 }
 // Q: What is the time complexity of the function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // 11) -------------------------------------------------------
@@ -213,21 +213,11 @@ function getNumbersSquared(numbers) {
 }
 
 // Q: What is the space complexity of this function?
-// ANSWER: O(n^2)
+// ANSWER: O(n)
 
 
 // Q: Is it possible to improve this function's space complexity? If it is, write a new function below.
-// ANSWER: O(n)
-
-function getNumbersSquared2(numbers) {
-  let answers = []
-
-  for (let i = 0; i < numbers.length; i ++){
-    let squaredValue = Math.pow(numbers[i], 2)
-    answers.push(squaredValue)
-  }
-  return answers
-}
+// ANSWER: 
 
 
 // 15) Here are two functions that you came up with to count how many of each letter is in a given string and return an object with the individual counts: 
