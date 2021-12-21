@@ -217,7 +217,7 @@ function getNumbersSquared(numbers) {
 
 
 // Q: Is it possible to improve this function's space complexity? If it is, write a new function below.
-// ANSWER: 
+// ANSWER: No, it's not possible to improve this function's space complexity while also returning the correct solution.
 
 
 // 15) Here are two functions that you came up with to count how many of each letter is in a given string and return an object with the individual counts: 
