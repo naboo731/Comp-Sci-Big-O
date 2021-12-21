@@ -131,9 +131,6 @@ let newNumbersB = numbers.map((num) => {
 // ANSWER: O(n)
 
 
-
-
-
 //////////////
 //// TIME ////
 //////////////
@@ -171,10 +168,6 @@ function printFirstTwoNames(array) {
 
 // Q: What is the time complexity of the function? 
 // ANSWER: O(1)
-
-
-
-
 
 
 ///////////////
